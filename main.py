@@ -41,6 +41,7 @@ def health_check():
 def about():
     return {"message" : "This is a simple FastAPI application for demonstration purposes.."}
 
+@app.get('/contact')
+def contact():
+    return {"message" : "This is a simple FastAPI application for demonstration purposes.."}
 
-
-    
