@@ -37,7 +37,9 @@ def get_analytics():
 def health_check():
     return {"status" : "Green..!Good to go.."}
 
-
+@app.get("/about")
+def about():
+    return {"message" : "This is a simple FastAPI application for demonstration purposes.."}
 
 
 
