@@ -24,4 +24,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-cicd-demo:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/fastapi-cicd-demo:latest
+          
