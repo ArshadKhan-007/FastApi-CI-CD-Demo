@@ -49,3 +49,6 @@ def contact():
 def update_analytics():
     return {"message" : "Update successful"}
 
+@app.get("/unit-test")
+def unit_test():
+    return {"message" : "Unit test successful"}
