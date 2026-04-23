@@ -41,6 +41,10 @@ def health_check():
 def about():
     return {"message" : "This is a simple FastAPI application for demonstration purposes.."}
 
+@app.get("/version")
+def version():
+    return {"version" : "1.0.0"}
+
 
 
     
