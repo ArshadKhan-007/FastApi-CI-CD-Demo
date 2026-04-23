@@ -26,5 +26,5 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/fastapi-cicd-demo:latest
-
+        
           
